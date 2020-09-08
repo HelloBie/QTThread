@@ -72,4 +72,9 @@
 {
     task();
 }
+
+- (void)dealloc
+{
+    [self stop];
+}
 @end
